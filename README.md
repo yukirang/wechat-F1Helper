@@ -1,5 +1,5 @@
 # wechat-F1Helper
-To finish a wechat little program that introduce the F1 Racing.
+To finish a wechat little program which introduces the F1 Racing.
 
 Preview:
 
