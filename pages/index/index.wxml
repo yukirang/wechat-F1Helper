@@ -1,20 +1,52 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
+  <image src="./images/top.jpg" class="top"></image>
+  <view class="box">
+    <view class="card" id="driver">
+      <image src="./images/driver.jpeg" bindtap="bindDriverTap"></image>
+      <text>车手</text>
+    </view>
+    <view class="card" id="track">
+      <image src="./images/team.jpeg"></image>
+      <text>车队</text>
+    </view>
+  </view>
+   <view class="box">
+    <view class="card" id="travel">
+      <image src="./images/track.jpg"></image>
+      <text>赛道</text>
+    </view>
+    <view class="card" id="">
+      <image src="./images/travel.jpg"></image>
+      <text>观赛攻略</text>
+    </view>
+  </view>
+  <view class="box">
+    <view class="card" id="travel">
+      <image src="./images/data.jpeg"></image>
+      <text>数据</text>
+    </view>
+    <view class="card" id="">
+      <image src="./images/tech.jpeg"></image>
+      <text>技术介绍</text>
+    </view>
+  </view>
+  <!--view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
-  </view>
-  <canvas canvas-id='shareCanvas'></canvas>
-  <view class="usermotto">
+  </view-->
+  <!--canvas canvas-id='shareCanvas'></canvas-->
+  <!--view class="usermotto">
     <text class="user-motto">{{motto}}</text>
-  </view>
+  </view-->
   
-  <view class="share">
+  <!--view class="share">
     <button bindtap='bindShareTap'>233</button>
-  </view>
+   
+  </view-->
 
   
 </view>

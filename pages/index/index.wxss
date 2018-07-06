@@ -25,3 +25,42 @@
   height: 900px;
   border: 1px solid #000;
 }
+.container{
+  margin: 0;
+  padding: 20rpx;
+}
+
+.top{
+  width: 800rpx;
+  height: 450rpx;
+}
+
+.box{
+  width: 800rpx;
+  height: 250rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60rpx;
+}
+
+.card{
+  width: 250rpx;
+  height: 230rpx;
+  /*background-color: grey;*/
+  text-align: center;
+}
+
+.card image{
+  width: 260rpx;
+  height: 180rpx;
+  border-radius:20%;
+  box-shadow:1px 1px 5px #999;
+}
+
+.card text{
+  width: 250rpx;
+  height: 30rpx;
+  font-size: 30rpx;
+}
+

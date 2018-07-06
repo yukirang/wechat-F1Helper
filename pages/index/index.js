@@ -19,6 +19,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  bindDriverTap: function () {
+    wx.navigateTo({
+      url: '../driver/driver'
+    })
+  },
   bindShareTap: function(){
     console.log(util);
     var that = this;
@@ -47,7 +52,7 @@ Page({
     ctx.setFillStyle('#000')
     ctx.setFontSize(0.037 * 300)
     ctx.setTextAlign('left')
-    ctx.fillText('保存图片分享到朋友圈', 50 / 2, 1.36 * 50)
+    ctx.fillText('保存二维码分享到朋友圈', 50 / 2, 1.36 * 50)
     ctx.draw(true);
     setTimeout(function canvasToImage() {
       var that = this;
