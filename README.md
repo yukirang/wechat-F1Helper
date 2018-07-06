@@ -1,6 +1,13 @@
 # wechat-F1Helper
+To finish a wechat little program that introduce the F1 Racing.
+
+Preview:
+
+![image](https://github.com/yukirang/wechat-F1Helper/tree/master/static/img/preview.png)
+
 
 ### TODO
+
 
 * UI
 * Race track
@@ -8,4 +15,5 @@
 * Travel strategy
 * Team
 * Technology
+* Data
 
