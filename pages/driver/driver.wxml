@@ -1,3 +1,15 @@
-<view class="container">
-  Jenson Button
+<view >
+  <view wx:for="{{driverList}}" wx:key="driver" class="driver">
+    <image src="../../images/{{item.image}}"></image>
+    <view class="info">
+      <view class="name"><text>姓名：  </text>{{item.name}}</view>
+      <view class="birth"><text>生日：  </text>{{item.birth}}</view>
+      <view class="nation"><text>国籍：  </text>{{item.nationality}}</view>
+      <view class="height"><text>身高：  </text>{{item.height}}</view>
+      <view class="weight"><text>体重：  </text>{{item.weight}}</view>
+      <view class="team"><text>车队：  </text>{{item.team}}</view>
+      <view class="number"><text>车号：  </text>{{item.number}}</view>
+      <view class="first"><text>首秀：  </text>{{item.first}}</view>
+    </view>  
+  </view>
 </view>

@@ -6,28 +6,28 @@
       <image src="./images/driver.jpeg" bindtap="bindDriverTap"></image>
       <text>车手</text>
     </view>
-    <view class="card" id="track">
-      <image src="./images/team.jpeg"></image>
+    <view class="card" id="team">
+      <image src="./images/team.jpeg"  bindtap="bindTeamTap"></image>
       <text>车队</text>
     </view>
   </view>
    <view class="box">
-    <view class="card" id="travel">
-      <image src="./images/track.jpg"></image>
+    <view class="card" id="track">
+      <image src="./images/track.jpg" bindtap="bindTrackTap"></image>
       <text>赛道</text>
     </view>
-    <view class="card" id="">
-      <image src="./images/travel.jpg"></image>
+    <view class="card" id="travel">
+      <image src="./images/travel.jpg" bindtap="bindTravelTap"></image>
       <text>观赛攻略</text>
     </view>
   </view>
   <view class="box">
-    <view class="card" id="travel">
-      <image src="./images/data.jpeg"></image>
+    <view class="card" id="data">
+      <image src="./images/data.jpeg" bindtap="bindDataTap"></image>
       <text>数据</text>
     </view>
-    <view class="card" id="">
-      <image src="./images/tech.jpeg"></image>
+    <view class="card" id="tech">
+      <image src="./images/tech.jpeg" bindtap="bindTechTap"></image>
       <text>技术介绍</text>
     </view>
   </view>

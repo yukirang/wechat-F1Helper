@@ -2,7 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/driver/driver"
+    "pages/driver/driver",
+    "pages/team/team",
+    "pages/track/track",
+    "pages/travel/travel",
+    "pages/data/data",
+    "pages/tech/tech"
   ],
   "window": {
     "backgroundTextStyle": "light",

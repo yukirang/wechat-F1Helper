@@ -24,6 +24,31 @@ Page({
       url: '../driver/driver'
     })
   },
+  bindTeamTap: function () {
+    wx.navigateTo({
+      url: '../team/team'
+    })
+  },
+  bindTrackTap: function () {
+    wx.navigateTo({
+      url: '../track/track'
+    })
+  },
+  bindTravelTap: function () {
+    wx.navigateTo({
+      url: '../travel/travel'
+    })
+  },
+  bindDataTap: function () {
+    wx.navigateTo({
+      url: '../data/data'
+    })
+  },
+  bindTechTap: function () {
+    wx.navigateTo({
+      url: '../tech/tech'
+    })
+  },
   bindShareTap: function(){
     console.log(util);
     var that = this;

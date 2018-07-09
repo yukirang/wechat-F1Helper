@@ -1,11 +1,11 @@
-// pages/driver/driver.js
+// pages/team/team.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    driverList: [],
+  
   },
 
   /**
@@ -14,7 +14,7 @@ Page({
   onLoad: function (options) {
     var that = this;
     wx.request({
-      url: 'http://localhost:3000/drivers',
+      url: 'https://api.weixin.qq.com/wxa/getwxacode?access_token=ACCESS_TOKEN',
       data: {
       },
       method: 'GET',
@@ -22,21 +22,16 @@ Page({
         'content-type': 'application/json'
       },
       success: function (res) {
-        that.setData({ driverList: res.data.drivers });
+        console.log(res);
       }
     })
-
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-  },
-
-  bindTestTap: function (){
-   
-
+  
   },
 
   /**
@@ -80,6 +75,4 @@ Page({
   onShareAppMessage: function () {
   
   }
-
-
 })

@@ -1,42 +1,25 @@
-// pages/driver/driver.js
+// pages/track/track.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    driverList: [],
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this;
-    wx.request({
-      url: 'http://localhost:3000/drivers',
-      data: {
-      },
-      method: 'GET',
-      header: {
-        'content-type': 'application/json'
-      },
-      success: function (res) {
-        that.setData({ driverList: res.data.drivers });
-      }
-    })
-
+  
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-  },
-
-  bindTestTap: function (){
-   
-
+  
   },
 
   /**
@@ -80,6 +63,4 @@ Page({
   onShareAppMessage: function () {
   
   }
-
-
 })

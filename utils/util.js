@@ -14,21 +14,7 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
-const promisify = api => {
-  return (options, ...params) => {
-    return new Promise((resolve, reject) => {
-      const extras = {
-        success: resolve,
-        fail: reject
-      }
-      api({ ...options, ...extras }, ...params)
-    })
-  }
-}
-
-
 module.exports = {
   formatTime: formatTime,
-  promisify: promisify
 }
 
