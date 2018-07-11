@@ -4,7 +4,7 @@
   width: 100%;
   font-size: 0.8rem;
   color: #000000;
-  font-family: sans-serif;
+  font-family: "PingFang SC";
   align-items: center;
   justify-content: space-around;
   margin-top: 1.5rem;
@@ -14,7 +14,7 @@
   color: black;
 }
 .driver image{
-  width: 8rem;
+  width: 7.5rem;
   height: 9rem;
   border-radius:20%;
   box-shadow:1px 1px 5px #999;

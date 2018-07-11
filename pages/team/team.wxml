@@ -1,2 +1,5 @@
-<!--pages/team/team.wxml-->
-<text>Mclaren</text>
+<view >
+  <view wx:for="{{teamList}}" wx:key="team" class="team">
+    <image src="../../images/{{item.image}}"></image>
+  </view>
+</view>

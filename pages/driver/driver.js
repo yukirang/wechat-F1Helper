@@ -14,7 +14,7 @@ Page({
   onLoad: function (options) {
     var that = this;
     wx.request({
-      url: 'http://localhost:3000/drivers',
+      url: 'https://cuddly-puma-39.localtunnel.me/drivers',
       data: {
       },
       method: 'GET',
@@ -22,6 +22,7 @@ Page({
         'content-type': 'application/json'
       },
       success: function (res) {
+        console.log(res);
         that.setData({ driverList: res.data.drivers });
       }
     })
