@@ -6,14 +6,4 @@ Preview:
 ![image](https://github.com/yukirang/wechat-F1Helper/blob/master/images/start.png)
 
 
-### TODO
-
-
-* UI
-* Race track
-* Driver
-* Travel strategy
-* Team
-* Technology
-* Data
 
